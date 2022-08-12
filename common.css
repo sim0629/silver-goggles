@@ -1,0 +1,33 @@
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+ul {
+  padding-left: 0;
+}
+
+li {
+  background: url('icons/flag.svg') no-repeat left top;
+  vertical-align: middle;
+  list-style: none;
+  font-size: 24px;
+  padding-left: 24px;
+  border-top: 1px solid black;
+}
+
+li:last-child {
+  border-bottom: 1px solid black;
+}
+
+li:nth-child(even) {
+  background-color: #EFEFEF;
+}
+
+li.current {
+  background-color: green;
+}
+
+li:hover {
+  background-color: magenta;
+}
